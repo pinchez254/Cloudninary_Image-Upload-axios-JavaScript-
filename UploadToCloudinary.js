@@ -1,6 +1,6 @@
 // import CryptoJS from 'crypto-js'; //import this
 
-function uploadImageAsync(uri) {
+ uploadImageAsync =(uri)=> {
   let timestamp = ((Date.now() / 1000) | 0).toString();
   let api_key = 'Your cloudninary api_key';
   let api_secret = 'Your cloudninary';
